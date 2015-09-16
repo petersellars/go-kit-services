@@ -5,6 +5,7 @@ Example of simple Service Interface, Request/Response, Endpoints and Transport u
 ### Build this Example
 ```bash
 $ go build -o minimal-service main.go
+$ ./minimal-service
 ```
 
 ### Run this Example
