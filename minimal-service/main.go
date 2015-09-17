@@ -47,7 +47,7 @@ func main() {
 		nil,
 	)
 
-	countHandler := httptransport.NewServer( 
+	countHandler := httptransport.NewServer(
 		ctx,
 		makeCountEndpoint(svc),
 		decodeCountRequest,
@@ -108,8 +108,8 @@ type uppercaseRequest struct {
 }
 
 type uppercaseResponse struct {
-	V	string `json:"v"a`
-	Err	string `json:"err,omitempty"` // errors don't define JSON marshalling
+	V   string `json:"v"a`
+	Err string `json:"err,omitempty"` // errors don't define JSON marshalling
 }
 
 type countRequest struct {
