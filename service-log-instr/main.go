@@ -17,6 +17,7 @@ func main() {
 	
     var svc StringService	
 	svc = stringService{}
+	svc = appLoggingMiddleware{logger, svc}
 
 	// Transport Logging
 	var uppercase endpoint.Endpoint
