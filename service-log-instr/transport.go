@@ -53,8 +53,8 @@ type uppercaseRequest struct {
 }
 
 type uppercaseResponse struct {
-	V		string `json:"v"`
-	Err		string `json:"err,omitempty"`
+	V   string `json:"v"`
+	Err string `json:"err,omitempty"`
 }
 
 type countRequest struct {

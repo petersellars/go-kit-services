@@ -3,10 +3,10 @@ package main
 import (
 	"time"
 
-    "golang.org/x/net/context"
+	"golang.org/x/net/context"
 
-	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/endpoint"
+	"github.com/go-kit/kit/log"
 )
 
 // Application Logging Middleware

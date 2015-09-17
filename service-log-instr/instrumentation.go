@@ -8,9 +8,9 @@ import (
 )
 
 type instrumentationMiddleware struct {
-	requestCount	metrics.Counter
-	requestLatency	metrics.TimeHistogram
-	countResult		metrics.Histogram
+	requestCount   metrics.Counter
+	requestLatency metrics.TimeHistogram
+	countResult    metrics.Histogram
 	StringService
 }
 
